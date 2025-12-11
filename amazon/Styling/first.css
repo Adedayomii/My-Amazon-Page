@@ -1,0 +1,63 @@
+p {
+    font-size: 17px;
+}
+
+
+
+.first_row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 50px;
+
+}
+
+.items {
+    height: 176.988px;
+}
+
+
+.rating {
+    height: 19.7875px;
+    width: 100px;
+}
+
+.select {
+    background-color: whitesmoke;
+    color: rgb(33, 33, 33);
+    height: 27.6px;
+    border-radius: 5px;
+    border: none;
+    width: 49.2px;
+}
+
+.house_one,
+.house_two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 25px;
+    margin-left: 17px;
+
+}
+
+.house_two {
+    margin-top: 70px;
+}
+
+.button_add {
+    background-color: rgb(255, 216, 20);
+    height: 33.6px;
+    width: 162.8px;
+    border-radius: 50px;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    margin-top: 40px;
+    transition: background-color 1s;
+
+}
+
+.button_add:hover {
+    background-color: rgb(218, 186, 9);
+}
+
