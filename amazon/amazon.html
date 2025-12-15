@@ -1174,20 +1174,25 @@
 
 
     <script>
-        let iconNumber = 0;
+        
+            let a = document.querySelector('.js-itemName').innerHTML;
+            let b = document.querySelector('.js-priceName').innerHTML;
+            
 
-        function addToCart () {
-            let a = document.querySelector('.js-value');
+            iconNumber.push({
+                name_of_item: `${a}`,
+                price_of_item: `${b}`
+            })
 
-            cartValue = a.value;
 
-            iconNumber += cartValue;
+            let c = iconNumber.length;
 
-            document.querySelector('.js-icon').innerHTML = iconNumber;
-        }
+
+            document.querySelector('.js-icon').innerHTML = c;
     </script>
     
 </body>
+
 
 
 
